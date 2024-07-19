@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    z-index: 1;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav.transparent {
+    background: transparent;
+    color: #fff;
+}
+
+nav.scrolled {
+    background: #fff;
+    color: #333;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-links a {
+    margin-left: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+nav.transparent .nav-links a {
+    color: #fff;
+}
+
+nav.scrolled .nav-links a {
+    color: #333;
+}
+
+nav.transparent .nav-links a:hover {
+    color: #ddd;
+}
+
+nav.scrolled .nav-links a:hover {
+    color: #555;
+}
+
+.parallax {
+    background-image: url('assets/enablekids.png'); /* Replace with your image path */
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    filter: brightness(50%);
+}
+
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-form input[type="email"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.cta-form button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.intro-content {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.portfolio-item {
+    display: flex;
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 200px;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+
+.portfolio-item .details {
+    max-width: 600px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.carousel {
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    overflow: hidden;
+    margin: 0 0 2rem auto; 
+    flex: 6;
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.card {
+    display: flex;
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: left;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card img {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+.card-subtitle {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0 0 10px;
+}
+.card-text {
+    font-size: 1em;
+    color: #888;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.arrow.left {
+    left: 10px;
+}
+.arrow.right {
+    right: 10px;
+}
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+.text-container {
+    flex:1; 
+    margin-right: 2rem; 
+}
