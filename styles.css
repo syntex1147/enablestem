@@ -160,75 +160,46 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+    width: 100%;
 }
-.carousel {
-    position: relative;
-    width: 90%;
-    max-width: 1080px;
-    overflow: hidden;
-    margin: 0 0 2rem auto; 
-    flex: 6;
-}
-.carousel-inner {
+
+.team-container {
     display: flex;
-    transition: transform 0.5s ease;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .card {
-    display: flex;
-    min-width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-    text-align: left;
-    background: white;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
 }
+
 .card img {
-    max-width: 40%;
+    width: 100%;
     height: auto;
-    margin-right: 20px;
 }
+
 .card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 20px;
 }
+
 .card-title {
     font-size: 1.5em;
-    font-weight: bold;
-    margin: 0 0 15px;
+    margin-bottom: 10px;
 }
+
 .card-subtitle {
-    font-size: 0.9em;
-    color: #666;
-    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
 }
-.card-text {
+
+.card-paragraph {
     font-size: 1em;
-    color: #888;
-}
-.arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-.arrow.left {
-    left: 10px;
-}
-.arrow.right {
-    right: 10px;
-}
-.content-wrapper {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-}
-.text-container {
-    flex:1; 
-    margin-right: 2rem; 
+    color: #777;
 }
