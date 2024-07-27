@@ -109,6 +109,7 @@ nav.scrolled {
     color: #fff;
     text-align: center;
     z-index: 2;
+    font-family: 'Raleway','Ubuntu',sans-serif;
 }
 
 .intro h2 {
@@ -226,6 +227,7 @@ footer {
     margin-bottom: 20px;
     color: #333;
     margin-top: 10px;
+    font-family: 'Ubuntu',sans-serif;
 }
 
 .intro-text p {
@@ -233,6 +235,7 @@ footer {
     line-height: 1.6;
     color: #555;
     margin-bottom: 30px;
+    font-family: 'Raleway',sans-serif;
 }
 
 .cta-button {
@@ -244,6 +247,7 @@ footer {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'Raleway',sans-serif;
 }
 
 .cta-button:hover {
@@ -289,6 +293,10 @@ footer {
     font-size: 2.5rem; 
     margin-bottom: 35px; 
     font-weight: normal;
+    font-family: 'Raleway',sans-serif;
+}
+.card {
+    font-family: 'Raleway','Ubuntu', sans-serif;
 }
 .banner {
     text-align: center;
@@ -337,7 +345,7 @@ footer {
 .upcoming-events {
     text-align: left;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 20px 0;
     background-color: #f5f5f5;
 }
 
@@ -346,6 +354,7 @@ footer {
     margin-left: 50px;
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-family: 'Ubuntu','Raleway',sans-serif;
 }
 
 .events-wrapper {
@@ -371,5 +380,54 @@ footer {
 
 .portfolio-item .details {
     max-width: 600px;
+    font-family: 'Raleway',sans-serif;
+}
+.contact-section {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding:20px;
+    margin-bottom: 20px;
 }
 
+.contact-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: normal;
+    font-family: 'Raleway','Ubuntu',sans-serif;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s;
+    font-family: 'Raleway',sans-serif;
+}
+
+.contact-info a:hover {
+    color: #007bff;
+}
+
+.contact-info img {
+    width: 40px;
+    height: 40px;
+}
+.logo-icon {
+    width: 30px; 
+    height: auto;
+    margin-right: 10px; 
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
