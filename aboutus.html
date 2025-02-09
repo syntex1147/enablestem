@@ -1,93 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us  | Enable</title>
+    <title>About — ENABLE STEM</title>
+    <meta name="description" content="The story and initiatives behind ENABLE, a Durham, NC STEM nonprofit.">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="aboutus.css">
     <link rel="icon" type="image/png" href="assets/enable1.1.png">
 </head>
 <body>
-    <header>
+    <header class="about-header">
         <nav id="navbar" class="transparent">
-            <a href="https://ncenable.co" class="logo-link"> 
+            <a href="https://ncenable.co" class="logo-link">
                 <div class="logo">
-                    <img src="assets/enable1.1.png" alt="Enable" class="logo-icon">
+                    <img src="assets/enable1.1.png" alt="ENABLE" class="logo-icon">
                     ENABLE
                 </div>
             </a>
             <div class="nav-links">
                 <a href="https://ncenable.co">Home</a>
-                <a href="/index.html#about">About Us</a>
-                <a href="/index.html#meet-our-team">Our Team</a>
-                <a href="/index.html#events">Events</a>
-                <a href="/index.html#contact">Contact</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#meet-our-team">Team</a>
+                <a href="index.html#events">Events</a>
+                <a href="index.html#contact">Contact</a>
             </div>
         </nav>
+
+        <div class="about-hero-bg"></div>
+        <div class="about-hero-content">
+            <p class="eyebrow">About ENABLE</p>
+            <h1>Building futures<br>through STEM.</h1>
+        </div>
     </header>
 
-    <section class="banner-section">
-        <div class="banner-image">
-            <div class="banner-text-overlay">About Us</div>
-            <img src="assets/bannercontent.png" alt="Community Event"> 
+    <section class="intro-content fade-in">
+        <div class="intro-text">
+            <p class="small-text">Our story</p>
+            <h2>Founded in Durham, with global ambition.</h2>
+            <p>ENABLE aims to create significant impact with the support of our dedicated members and volunteers, in both our local and global community.</p>
+            <p>Our work is centered on an unwavering commitment to expanding STEM education and project funding for local underprivileged youth — through sponsorship, service, and a genuine desire to create social change.</p>
+        </div>
+        <div class="intro-image-container">
+            <img src="assets/durham.jpg" alt="Durham, North Carolina" class="intro-image">
         </div>
     </section>
 
-    <section class="intro-content">
-        <div class="intro-text">
-            <h2>Our Story</h2>
-            <p>Established in Durham, North Carolina, ENABLE aims to create significant impact with the support of our dedicated members and volunteers in the local and global community. Our work is centered around the unwavering passion and commitment to expanding STEM education and project funding to local underprivileged youths through sponsorships, service, and a desire to create social change.</p>
-        </div>
-        <div class="intro-image-container">
-            <img src="assets/durham.jpg" alt="Intro Image" class="intro-image">
+    <section class="initiatives-section fade-in">
+        <div class="wrap">
+            <p class="eyebrow" style="justify-content:center;">What we do</p>
+            <h1 class="section-title">Our initiatives</h1>
+            <div class="initiatives-container">
+                <div class="initiative-item fade-in">
+                    <span class="initiative-num">01</span>
+                    <h3>Inspiring youth education</h3>
+                    <p>We empower a generation of underrepresented and low-income youth to reach their full potential through higher education and extracurricular opportunities. Education builds not just a career, but a community.</p>
+                </div>
+                <div class="initiative-item fade-in fade-in-delay-1">
+                    <span class="initiative-num">02</span>
+                    <h3>Project sponsorship</h3>
+                    <p>We resource student projects and ideas to empower young thinkers. Imagination shouldn't be limited by social or economic factors when given the funding and support to be developed.</p>
+                </div>
+                <div class="initiative-item fade-in fade-in-delay-2">
+                    <span class="initiative-num">03</span>
+                    <h3>Helping communities</h3>
+                    <p>We build communities, especially in overlooked areas and neighborhoods — through fairs, giveaways, and engagement with local communities and city governments.</p>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="initiatives-section">
-        <h1 class="section-title">OUR INITIATIVES</h1>
-        <div class="initiatives-container">
-            <div class="initiative-item">
-                <h3>Inspiring Youth Education</h3>
-                <p>At ENABLE, we empower a generation of underrepresented and low-income minorities to reach their full potential by pursuing higher education and extracurricular opportunities. In an ever-changing world, education is not only important for building a career, but also a community.</p>
+
+    <section class="story-section fade-in">
+        <div class="wrap story-grid">
+            <div class="story-head">
+                <p class="eyebrow">Why we exist</p>
+                <h2>Empowering communities</h2>
             </div>
-            <div class="initiative-item">
-                <h3>Project Sponsorship</h3>
-                <p>ENABLE's commitment to sponsoring and resourcing student projects and ideas aims to empower youth thinkers. We believe that imagination and ideas of youth should not be limited by social or economic factors when given the opportunity, funding, and support to be developed.</p>
-            </div>
-            <div class="initiative-item">
-                <h3>Helping Communities</h3>
-                <p>The overarching aim of ENABLE centers around building communities, especially amongst those in overlooked areas and neighborhoods. We participate in a variety of community events, fairs, giveaways, and other forms of engagement with local communities or city governments.</p>
+            <div class="story-body">
+                <p>ENABLE was founded by four individuals of vastly different backgrounds, some of whom grew up in poor and overlooked neighborhoods. We understand the struggles of being raised in low-income and underrepresented communities — particularly in science, technology, engineering, and mathematics. Just like those who supported us, we believe that through personal guidance and empathy, anyone can develop their passion in STEM.</p>
+                <p>We believe in the potential of every individual. Since our founding, we have been guided by support, empowerment, and progress. Our mission is to inspire action and make a tangible difference in underdeveloped communities through expanding STEM education and funding.</p>
             </div>
         </div>
-    </section>    
-    <div class="content-wrapper">
-        <div class="content-title">
-            <h3>Empowering Communities</h3>
+    </section>
+
+    <section class="contact-section fade-in" id="contact">
+        <p class="eyebrow">Join us</p>
+        <h1>Be part of the work</h1>
+        <div class="contact-info">
+            <a href="index.html#contact"><span>Get in touch</span></a>
+            <a href="index.html"><span>Back to home</span></a>
         </div>
-        <hr>
-        <div class="content-description">
-            <p>ENABLE was founded by four individuals of vastly different and unique backgrounds, some of whom who grew up in poor and overlooked neighborhoods. We understand the struggles that come with being raised in low-income and underrepresented communities, particularly in STEM (sciences, technology, engineering, and mathematics). Just like those us who supported us and our overlooked communities in the past, we believe that through personal guidance and empathy, anyone can develop their passion in STEM.</p>
-            <p>At ENABLE, we believe in the potential of every individual. Since our establishment, we have been guided by the principles of support, empowerment, and progress. Our mission is to inspire action and make a tangible difference in underdeveloped communities through expanding STEM education and funding.</p>
-        </div>
-    </div>
-<!--
-    <div class="content-wrapper">
-        <div class="content-title">
-            <h3>Our Story</h3>
-        </div>
-        <div class="content-description">
-            <p>Established in Durham, North Carolina, ENABLE aims to create significant impact with the support of our dedicated members and volunteers in the local and global community. Our work is centered around the unwavering passion and commitment to expanding STEM education and project funding to local underprivileged youths through sponsorships, service, and a desire to create social change.</p>
-        </div>
-    </div>
--->
+    </section>
+
     <footer>
-        <p>&copy; 2024 @ EnableNC. All Rights Reserved.</p>
+        <p>&copy; 2024 ENABLE NC · All rights reserved.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
