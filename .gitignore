@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Node / dependency dirs
+node_modules/
+
+# Environment and secret files
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets.yml
+
+# IDEs
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
