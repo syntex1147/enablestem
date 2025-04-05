@@ -4,7 +4,7 @@ Project README
 Short, local README for this repository.
 
 Purpose
-- Minimal site/source for Enablestem project.
+- Minimal site/source for NCEnable 501(c)3b.
 
 Quick setup
 - Open `index.html` in a browser. No build required.
